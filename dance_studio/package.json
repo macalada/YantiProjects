@@ -1,0 +1,21 @@
+{
+  "name": "dance_studio",
+  "version": "1.0.0",
+  "description": "dance studio README",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://irynatar@bitbucket.org/irynatar/dance_studio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/irynatar/dance_studio#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "stripe": "^8.86.0"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src='/js/payment.js'></script>
+    <title>Document</title>
+</head>
+<body>
+
+    <button id='checkout-kids-button' onclick='payForDanceClass([{price: "price_1H9GmTI3Lsj8gCRgTwHvc2Ji", quantity: 1}])'>Pay kids</button>
+    <button id='checkout-youth-button' onclick='payForDanceClass([{price: "price_1H9GnfI3Lsj8gCRg0O529L9l", quantity: 1}])'>Pay youth</button>
+    <button id='checkout-adults-button' onclick='payForDanceClass([{price: "price_1H9GoHI3Lsj8gCRgXpfmSk6O", quantity: 1}])'>Pay adults</button>
+    <button id='checkout-seniors-button' onclick='payForDanceClass([{price: "price_1H9Gp8I3Lsj8gCRgKiRTUDrd", quantity: 1}])'>Pay seniors</button>
+    
+</body>
+</html>
+
